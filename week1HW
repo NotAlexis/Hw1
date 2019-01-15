@@ -1,7 +1,14 @@
+/*Filename: h1_var_format_alexisb.cpp
+Author: ALexis Barajas
+Desc: Program that uses variables to hold values & iomanip functions to format output.
+Objective: Demonstrate declaration, assignment and output of an integer, string, character and float. 
+Output data values in a nicely formatted table.
+*/
 
 #include <iostream> 
 #include <iomanip>
 #include <string>
+
 
 using namespace std;
 
