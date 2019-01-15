@@ -37,8 +37,11 @@ int main()
     //Output
     
     
-    cout << setw(10) << author1<< setw(10) << title1 << setw(8) << year1 << endl;
-    
+   cout << author1 << '\t' << title1 << setw(8) << year1 << endl;
+   cout << author2 << '\t' << title2 << setw(20) << year2 << endl;
+   cout << author3 << '\t' << title3 << setw(7) << year3 << endl;
+
+
     
     
 }
