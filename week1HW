@@ -1,0 +1,44 @@
+
+#include <iostream> 
+#include <iomanip>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    //Declare
+    string author1;
+    string author2;
+    string author3;
+    
+    string title1;
+    string title2;
+    string title3;
+    
+    int year1;
+    int year2;
+    int year3;
+    
+    //Initialize
+    
+    author1 = "Eisley";
+    author2 = "Gilbert";
+    author3 = "Paton";
+    
+    title1 = "All The Strange Hours";
+    title2 = "Big Magic";
+    title3 = "Too Late The Phalarope";
+    
+    year1 = 1975;
+    year2 = 2017;
+    year3 = 1996;
+    
+    //Output
+    
+    
+    cout << setw(10) << author1<< setw(10) << title1 << setw(8) << year1 << endl;
+    
+    
+    
+}
